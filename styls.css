@@ -71,26 +71,29 @@ footer {
   /* 画面幅768px以下で表示 */
 
 header{
-  width 100%
+  width :auto;
 }
 .step-box{
   width: 90%;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 20px;
   margin-right: 0px
 
 }
-.step-img1 .step-img2 .step-img3{
-  height: 150px;
-}
-.step-img1  {
+.step-img1 
   margin-right: 0px;
 }
 .step-img2{
+  height: 150px;
   margin-right: 0px;
 }
+.step-img2{
+  height: 150px;
+  margin-bottom: 0px;
 
 main{
   width:auto;
   float:none;
 }
-}}
+}
