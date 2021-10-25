@@ -70,30 +70,37 @@ footer {
 @media screen and (max-width: 768px) {
   /* 画面幅768px以下で表示 */
 
-header{
-  width :auto;
-}
+/* header{
+  width :100;
+} */
 .step-box{
-  width: 90%;
-  margin-left: auto;
+  width: 100%;
+  /* margin-left: auto; */
   margin-right: auto;
   margin-bottom: 20px;
-  margin-right: 0px
+  /* margin: 0 auto 20px; */
+}
+.container{
+  margin: 0 auto ;
+  width: 90%;
+}
 
-}
-.step-img1 
-  margin-right: 0px;
+.step-img1{
+  height: 150px;
+  /* margin-right: 0px; */
 }
 .step-img2{
   height: 150px;
-  margin-right: 0px;
+  /* margin-right: 0px; */
 }
-.step-img2{
+.step-img3{
   height: 150px;
-  margin-bottom: 0px;
+    margin-bottom: 0px;}
 
 main{
-  width:auto;
-  float:none;
+  width: 100%;
+  /* float: none; */
 }
+.step-box:last-child {
+  margin-bottom: 0;}
 }
